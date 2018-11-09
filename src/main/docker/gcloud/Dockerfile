@@ -13,3 +13,5 @@ RUN curl https://sdk.cloud.google.com -o install.gcloud.cli.sh
 RUN bash install.gcloud.cli.sh --disable-prompts
 RUN rm install.gcloud.cli.sh
 ENV PATH=/home/jdoe/google-cloud-sdk/bin:$PATH
+VOLUME /home/jdoe/.config
+ENTRYPOINT ["/home/jdoe/google-cloud-sdk/bin/gcloud"]
