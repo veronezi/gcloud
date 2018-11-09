@@ -1,0 +1,4 @@
+= GCLOUD CLI
+
+image:https://travis-ci.org/veronezi/gcloud.svg?branch=master["Build Status", link="https://travis-ci.org/veronezi/gcloud"]
+
